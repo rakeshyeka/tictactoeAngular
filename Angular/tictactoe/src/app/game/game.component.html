@@ -1,0 +1,14 @@
+<div>
+  <table class="grid">
+    <tbody>
+      <tr *ngFor="let row of grid; let i = index;">
+        <th *ngFor="let cell of row; let j = index;">
+            <div class="grid-block" [ngClass]="cell.class" (click)="onClick(i,j)"></div>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="reset-block">
+  <span><a href="javascript:void(0)" (click)="init()">Reset</a></span>
+</div>

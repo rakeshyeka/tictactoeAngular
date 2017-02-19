@@ -1,0 +1,61 @@
+.x-cell{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 0 0;
+}
+.x-cell-v{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 25% 0;
+}
+.x-cell-h{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 50% 0;
+}
+.x-cell-d1{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 75% 0;
+}
+.x-cell-d2{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 100% 0;
+}
+.o-cell{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 0 100%;
+}
+.o-cell-v{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 25% 100%;
+}
+.o-cell-h{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 50% 100%;
+}
+.o-cell-d1{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 75% 100%;
+}
+.o-cell-d2{
+    background: url('/tictactoe/images/sprites_states.png');
+    background-position: 100% 100%;
+}
+.grid-block{
+    height: 100px;
+    width: 100px;
+    background-size: 500%;
+}
+.grid {
+    border-collapse: collapse;
+    margin: auto;
+}
+.reset-block {
+    text-align: center;
+    padding-top: 10px;
+    margin: auto; 
+}
+table, th, td {
+    border: 2px solid black;
+}
+th:hover {
+    border-color: #0066ff;
+    border-style:double;
+}
